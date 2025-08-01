@@ -12,7 +12,6 @@ namespace Hazel {
     Application::~Application() = default;
 
     void Application::Run() {
-        std::cout << 23;
-
+        while (true);
     }
 }

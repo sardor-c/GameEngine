@@ -6,6 +6,7 @@ add_executable(
 target_link_libraries(Sandbox PRIVATE Hazel)
 
 target_include_directories(Sandbox PRIVATE ${CMAKE_SOURCE_DIR}/Hazel)
+target_include_directories(Sandbox PRIVATE ${CMAKE_SOURCE_DIR}/Hazel/vendor/spdlog/include)
 
 target_compile_definitions(Sandbox PRIVATE HZ_PLATFORM_WINDOWS)
 

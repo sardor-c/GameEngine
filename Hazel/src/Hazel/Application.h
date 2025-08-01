@@ -2,7 +2,7 @@
 
 namespace Hazel {
 
-    class HZ_API Application {
+    class HAZEL_API Application {
     public:
         Application();
         virtual  ~Application();
