@@ -1,14 +1,15 @@
+#include <iostream>
 #include "Hazel.h"
 
 
 class Sandbox : public Hazel::Application {
 	public:
 		Sandbox() = default;
-		~Sandbox() override = default;
+		~Sandbox() override{
+			std::cout<< " delete";
+		}
 };
 
-int main() {
-	Sandbox *sandbox = new Sandbox();
-	sandbox->Run();
-	delete sandbox;
+extern "C" Hazel::Application *Hazel::CreateApplication() {
+	return new Sandbox();
 }

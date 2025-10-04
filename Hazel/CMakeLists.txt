@@ -8,6 +8,7 @@ add_library(
         src/Hazel/Events/ApplicationEvent.h
         src/Hazel/Events/KeyEvent.h
         src/Hazel/Events/MouseEvent.h
+        src/Hazel/EntryPoint.h
 )
 
 
