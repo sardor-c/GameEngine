@@ -4,9 +4,10 @@ add_library(
         src/Hazel/Application.cpp
         src/Hazel/Application.h
         src/Hazel.h
-        src/Hazel/EntryPoint.h
-        src/Hazel/Log.cpp
-        src/Hazel/Log.h
+        src/Hazel/Events/Events.h
+        src/Hazel/Events/ApplicationEvent.h
+        src/Hazel/Events/KeyEvent.h
+        src/Hazel/Events/MouseEvent.h
 )
 
 
