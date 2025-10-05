@@ -5,8 +5,8 @@
 class Sandbox : public Hazel::Application {
 	public:
 		Sandbox() = default;
-		~Sandbox() override{
-			std::cout<< " delete";
+		~Sandbox() override {
+			std::cout << " delete";
 		}
 };
 

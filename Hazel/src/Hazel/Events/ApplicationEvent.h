@@ -1,7 +1,5 @@
 #pragma once
-
 #include "Hazel/Events/Events.h"
-#include <sstream>
 
 namespace Hazel {
 

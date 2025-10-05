@@ -1,6 +1,5 @@
 #pragma once
 
-#include <sstream>
 #include "Hazel/Events/Events.h"
 
 
@@ -27,6 +26,8 @@ namespace Hazel {
 				ss << "KeyPressedEvent: " << m_KeyCode << " (" << m_RepeatedCount << " repeats)";
 				return ss.str();
 			}
+
+
 
 			EVENT_CLASS_TYPE(KeyPressed)
 		private:
